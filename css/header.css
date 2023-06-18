@@ -1,0 +1,45 @@
+.header{
+    padding-top: 3.5rem;
+    color: aliceblue;
+    width: 102%;
+    margin: 0;
+    background-image: url("https://image.freepik.com/vector-gratis/diseno-fondo-mar_23-2148635753.jpg");
+    position: relative;
+    height: 20rem;
+    padding-left: 8rem;
+    border-radius: 0  0 3rem 4rem;
+}
+.header img{
+    height: 7rem;
+    width: 16rem;
+    transition: 0.5s ease-out;
+}
+.header img:hover{
+    zoom: 1.03;
+    filter: drop-shadow(4px 4px 4px rgba(64, 59, 66, 0.342)) contrast(2);
+    transform: rotate(20deg);
+}
+.header h2{
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+.barra-menu{
+    color: aliceblue;
+}
+audio{
+    padding-bottom: 1rem;
+}
+
+@media (max-width: 595px) {  
+    .header h2 {font-size:2rem;}
+    .header p{font-size: 1.4rem;}
+    .header {padding-left: 10px}; /*1rem = 16px*/
+    .row {flex-wrap: nowrap;
+        flex-direction: row;}
+  }
+  @media (max-width: 610px) {  
+    .header h2 {font-size:1.4rem;}
+    .header p{font-size: 1rem;}
+    .row {flex-wrap: nowrap;
+        flex-direction: row;}
+  }

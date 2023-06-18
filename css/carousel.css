@@ -1,0 +1,17 @@
+.carousel-item img{
+    padding: 2.5rem;
+    border-radius: 4rem;
+    opacity: 0.9;
+    height: 500px;
+    transition: 1s ease-in;
+}
+.carousel-item img:hover{
+    opacity: 1;
+}
+.carousel-item h5{
+    color: black;
+    font-weight: 900;
+}
+@media (max-width: 620px){
+   .carousel-item img{ padding: 0.5rem; border-radius: 2rem; height: 300px;}
+} 

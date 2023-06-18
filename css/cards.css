@@ -1,0 +1,27 @@
+.card-cla{
+    height: 70px;
+    width: 30px;
+    box-shadow: 5px 2px 8px rgba(24, 6, 44, 0.337);
+}
+.caract .card:hover{
+    zoom: 1.02;
+    cursor: pointer;
+    filter: contrast(1.2);
+    transition: all 5s ease-in-out;
+}
+.caract{
+    padding-top: 3rem;
+}
+.caract .card-text{
+    color: aliceblue;
+}
+#staticBackdropLabel{
+    color: #5a62b0;
+}
+#content-modal{
+    text-align: justify;
+    padding: 5px;
+}
+@media (max-width: 570px) {  
+   
+  }
